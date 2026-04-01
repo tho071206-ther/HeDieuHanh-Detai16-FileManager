@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace HeDieuHanh_DeTai16.Views
@@ -17,7 +18,7 @@ namespace HeDieuHanh_DeTai16.Views
     /// <summary>
     /// Interaction logic for NavigationView.xaml
     /// </summary>
-    public partial class NavigationView : Window
+    public partial class NavigationView : UserControl
     {
         public NavigationView()
         {
